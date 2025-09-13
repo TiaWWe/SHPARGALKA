@@ -1,1 +1,12 @@
+print(int(z))
+print(float(z))
+print(str(z))
+print(bool(z))
 
+z=input("Введите трехзначное число: ")
+z=int(z)
+x=z//100
+c=z//10%10
+v=z%10
+print(x, c, v)
+print(v*100+c*10+x)
